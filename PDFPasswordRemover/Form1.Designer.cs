@@ -40,7 +40,7 @@ namespace PDFPasswordRemover
             this.Input_File_Select_Button = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Mode_Choosing_Panel = new System.Windows.Forms.FlowLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Mode_Choosing_Description = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Password_Enter_Panel = new System.Windows.Forms.FlowLayoutPanel();
@@ -164,7 +164,7 @@ namespace PDFPasswordRemover
             // 
             // Mode_Choosing_Panel
             // 
-            this.Mode_Choosing_Panel.Controls.Add(this.label1);
+            this.Mode_Choosing_Panel.Controls.Add(this.Mode_Choosing_Description);
             this.Mode_Choosing_Panel.Controls.Add(this.comboBox1);
             this.Mode_Choosing_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Mode_Choosing_Panel.Location = new System.Drawing.Point(0, 0);
@@ -172,14 +172,14 @@ namespace PDFPasswordRemover
             this.Mode_Choosing_Panel.Size = new System.Drawing.Size(301, 126);
             this.Mode_Choosing_Panel.TabIndex = 3;
             // 
-            // label1
+            // Mode_Choosing_Description
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 48);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Choose which password you know.";
+            this.Mode_Choosing_Description.AutoSize = true;
+            this.Mode_Choosing_Description.Location = new System.Drawing.Point(3, 0);
+            this.Mode_Choosing_Description.Name = "Mode_Choosing_Description";
+            this.Mode_Choosing_Description.Size = new System.Drawing.Size(274, 48);
+            this.Mode_Choosing_Description.TabIndex = 2;
+            this.Mode_Choosing_Description.Text = "Choose which password you know.";
             // 
             // comboBox1
             // 
@@ -267,7 +267,7 @@ namespace PDFPasswordRemover
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FlowLayoutPanel Mode_Choosing_Panel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Mode_Choosing_Description;
         private System.Windows.Forms.SplitContainer Input_File_Select_Panel;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel2;
